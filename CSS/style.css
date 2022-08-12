@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: cursive;
+}
+
+header nav {
+    padding: 1em;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 550;
+    background: rgba(0, 0, 0);
+    color: white;
+}
+
+nav ul {
+    justify-content: space-between;
+    display: flex;
+}
+
+nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%
+}
+
+.intro {
+    padding: 25% 25%;
+    background color: white;
+}
+
+.text {
+    justify-content: space-between;
+    display: flex;
+    padding: 20% 2%;
+}
+
+.text p {
+    font-size: 2em;
+    padding: 10% 1%;
+}
